@@ -1,8 +1,10 @@
-# Project Info
-Name: Andy Hameed
-Online Demo: https://murmuring-forest-00201.herokuapp.com/
-Project Title: ReFlect
-License: [MIT Licence](LICENSE.md)
+**Name**: Andy Hameed
+
+**Online Demo**: https://murmuring-forest-00201.herokuapp.com/
+
+**Project Title**: ReFlect
+
+**License**: [MIT Licence](LICENSE.md)
 
 # ReFlect
 Have you ever struggled with organizing a daily journal? Got stuck thinking of a topic to write about? ReFlect is a web app built to make the habit of journaling less daunting to pick up. With ReFlect, you'll be able to create journal entries anytime and anywhere. This app was created using the Flask microframework on top of a PostgreSQL database, all of which is built and hosted on Heroku.
@@ -33,9 +35,10 @@ You can modify your entries on the Dashboard by clicking the "Edit" button on on
 
 You can view articles using the "Articles" tab at the top of the page. This will display your entries by title and date, which you can click through to view on a separate page.
 
-## Watch the Video
+# Watch the Video
 
-## Credit 
+
+# Credit 
 
 This project was made possible with the help of [Brad Traversy](https://github.com/bradtraversy)'s myflaskapp tutorial as well as [Kirsten Hunter](https://www.linkedin.com/in/synedra)'s "Learning Flask" course offered through LinkedIn Learning.
 
