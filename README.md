@@ -7,7 +7,7 @@
 **License**: [MIT Licence](LICENSE.md)
 
 # ReFlect
-Have you ever struggled with organizing a daily journal? Got stuck thinking of a topic to write about? ReFlect is a web app built to make the habit of journaling less daunting to pick up. With ReFlect, you'll be able to create journal entries anytime and anywhere. This app was created using the Flask microframework on top of a PostgreSQL database, all of which is built and hosted on Heroku.
+Have you ever struggled with organizing a daily journal? Got stuck thinking of a topic to write about? ReFlect is a web app built to make the habit of journaling less daunting to pick up. With ReFlect, you'll be able to create journal entries anytime and anywhere. This app was created using the Flask microframework on top of a PostgreSQL database, all of which is built and hosted on Heroku. It used the ckeditor API for flexible text entry fields with a wide range of header bar tools.
 
 # Features
 
@@ -23,19 +23,22 @@ Once logged in, you will be presented with a Dashboard containing all your exist
 
 The most prominent feature of the dashboard is the journal entry creation feature. Use the green "New Entry" button found at the top of the page to create a new journal entry.
 
-### Prompt
+### Using a Journal Prompt
 
 If you choose to recieve a prompt for you entry, click the "prompt me" button to unviel a thought-provoking prompt that'll get you going on your daily reflection. 
+
+Once you have written your journal entry, a checkbox can be used to indicate whether or not you used the prompt that was provided. Checking this checkbox will allow the app to use JQuery to display the prompt along with your entry when viewing the journal entry.
 
 ## Entry Modification & Deletion
 
 You can modify your entries on the Dashboard by clicking the "Edit" button on one of the displayed journal entry rows. The deletion process is just as simple with the "Delete" button.
 
-## Articles
+## Viewing Journal Entries 
 
-You can view articles using the "Articles" tab at the top of the page. This will display your entries by title and date, which you can click through to view on a separate page.
+You can view entries using the "Journal Entries" tab at the top of the page. This will display your entries by title and date, which you can click through to view on a separate page in full detail.
 
 # Watch the Video
+
 
 
 # Credit 
