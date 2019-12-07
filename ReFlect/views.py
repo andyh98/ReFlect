@@ -1,6 +1,5 @@
 from flask import Flask, render_template, flash, redirect, url_for, request, session, logging
 from functools import wraps
-from passlib.hash import sha256_crypt
 from flask_bootstrap import Bootstrap
 from flask_login import LoginManager, current_user, login_required, logout_user, login_user
 from ReFlect import app, db, models, data
@@ -59,7 +58,7 @@ def articles():
 @app.route('/article/<string:id>/')
 def article(id):
     #Create cursor
-    article = Article.query.filter_by(author=session['username']).first()
+    article = Article.query.filter_by(id=id).first()
     return render_template('article.html', article=article)
 
 # User Register
@@ -140,14 +139,13 @@ def dashboard():
 @is_logged_in
 def add_article():
     x = datetime.now()
-
+    print("hello!")
     prompt = prompts[-1]
     form = ArticleForm(request.form)
     form.title.data = f"{x.strftime('%B')} {x.strftime('%d')}, {x.strftime('%Y')}"
-    
     if request.method == 'POST' and form.validate():
-        title = form.title.data
-        body = form.body.data
+        title = request.form['title']
+        body = request.form['body']
         cur_prompt = prompt if form.used_prompt.data else ""
 
         article = Article(
@@ -184,7 +182,7 @@ def edit_article(id):
     # Populate fields
     form.title.data = article.title
     form.body.data = article.body
-    
+    print("hello!")
     if request.method == 'POST' and form.validate():
         title = request.form['title']
         body = request.form['body']
