@@ -1,0 +1,12 @@
+- website that prompts users with journaling/introspection questions 
+  - user can register for an account, login and delete their account -- update users database, create entries database for user, 
+  - account holder can:
+	- click on their 'entries' page on top left corner of screen and see a list of questions they have answered so far (read database)
+	- search for an entry on the 'entries' page -- query database
+	- delete an entry using delete button on top right corner of an entry (delete databse row)
+	- delete their account (delete entries database and update users database by removing the user)
+
+  - app offers a thesaurus on left hand side of page -- (Mariam webster thesaurus API)
+  - app uses JQUERY to handle writing action which automatically saves entry into database (message shown on top right corner)
+  - app uses Bootstrap for design and layout
+

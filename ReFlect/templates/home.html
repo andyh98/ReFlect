@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <div class='jumbotron text-center'>
+        <h1>Welcome to ReFlect</h1>
+        <p class="lead">We want to help you make a habit of journaling by providing you with simple, thoughtful journal prompts!</p>
+    {% if session.logged_in == NULL %}
+        <a href="/register" class="btn btn-primary btn-lg">Register</a>
+        <a href="/login" class="btn btn-primary btn-lg">Login</a>
+    {% endif %}
+    </div>
+{% endblock %}

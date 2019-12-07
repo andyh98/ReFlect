@@ -1,0 +1,3 @@
+recursive-include ReFlect/templates
+include config.py
+global-exclude *.pyc
