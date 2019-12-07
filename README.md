@@ -7,7 +7,7 @@
 **License**: [MIT Licence](LICENSE.md)
 
 # ReFlect
-Have you ever struggled with organizing a daily journal? Got stuck thinking of a topic to write about? ReFlect is a web app built to make the habit of journaling less daunting to pick up. With ReFlect, you'll be able to create journal entries anytime and anywhere. This app was created using the Flask microframework on top of a PostgreSQL database, all of which is built and hosted on Heroku. It used the ckeditor API for flexible text entry fields with a wide range of header bar tools.
+Have you ever struggled with organizing a daily journal? Got stuck thinking of a topic to write about? ReFlect is a web app built to make the habit of journaling less daunting to pick up. With ReFlect, you'll be able to create journal entries anytime and anywhere. This app was created using the Flask microframework on top of a PostgreSQL database, all of which is built and hosted on Heroku. 
 
 # Features
 
@@ -21,7 +21,7 @@ Once logged in, you will be presented with a Dashboard containing all your exist
 
 ## Entry Creation
 
-The most prominent feature of the dashboard is the journal entry creation feature. Use the green "New Entry" button found at the top of the page to create a new journal entry.
+The most prominent feature of the dashboard is the journal entry creation feature. Use the green "New Entry" button found at the top of the page to create a new journal entry. The app uses the ckeditor API for flexible text entry fields with a wide range of text tools including font and formatting options.
 
 ### Using a Journal Prompt
 
@@ -37,9 +37,9 @@ You can modify your entries on the Dashboard by clicking the "Edit" button on on
 
 You can view entries using the "Journal Entries" tab at the top of the page. This will display your entries by title and date, which you can click through to view on a separate page in full detail.
 
-# Watch the Video
+# Video Demo
 
-
+[Click here for a video demo](https://drive.google.com/file/d/1lNjVF0-yb_n7EoQkf6Vq1HnPhB4ICUrJ/view?usp=sharing)
 
 # Credit 
 
