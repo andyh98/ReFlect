@@ -43,5 +43,7 @@ You can view entries using the "Journal Entries" tab at the top of the page. Thi
 
 This project was made possible with the help of [Brad Traversy](https://github.com/bradtraversy)'s myflaskapp tutorial as well as [Kirsten Hunter](https://www.linkedin.com/in/synedra)'s "Learning Flask" course offered through LinkedIn Learning.
 
+This project was created during the course of CPS530 Web Systems Development offered at Ryerson University.
+
 # License
 This code is licensed under the MIT license, approved by Open Source Initiative. For more information, visit [opensource.org](https://opensource.org/licenses/MIT)
