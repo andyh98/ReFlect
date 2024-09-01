@@ -1,6 +1,4 @@
-**Name**: Andy Hameed
-
-**Online Demo**: https://murmuring-forest-00201.herokuapp.com/
+[**Online Demo**](https://reflect-d6907657a0b0.herokuapp.com/)
 
 **Project Title**: ReFlect
 
@@ -36,8 +34,6 @@ You can modify your entries on the Dashboard by clicking the "Edit" button on on
 ## Viewing Journal Entries 
 
 You can view entries using the "Journal Entries" tab at the top of the page. This will display your entries by title and date, which you can click through to view on a separate page in full detail.
-
-<!-- # [Video Demo](https://drive.google.com/file/d/1lNjVF0-yb_n7EoQkf6Vq1HnPhB4ICUrJ/view?usp=sharing?target=_blank) -->
 
 # Credit 
 
